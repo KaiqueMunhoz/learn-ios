@@ -1,19 +1,13 @@
-//
-//  ViewController.swift
-//  eggplant-brownie
-//
-//  Created by kaique.munhoz on 11/05/21.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var happinessTextFiled: UITextField!
+    
+    @IBAction func clear(_ sender: UIButton) {
+        nameTextField.text = ""
+        happinessTextFiled.text = ""
     }
-
-
 }
 
