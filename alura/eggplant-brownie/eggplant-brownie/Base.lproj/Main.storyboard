@@ -16,35 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1MD-Jq-wcy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1MD-Jq-wcy">
                                 <rect key="frame" x="53" y="134" width="51" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Felicidade:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rF7-D5-Daw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Felicidade:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rF7-D5-Daw">
                                 <rect key="frame" x="53" y="180" width="82" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: macarrão" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="znP-3w-Le9">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: macarrão" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="znP-3w-Le9">
                                 <rect key="frame" x="143" y="127" width="219" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: 1 triste - 5 muito feliz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZdN-85-Qkt">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: 1 triste - 5 muito feliz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZdN-85-Qkt">
                                 <rect key="frame" x="143" y="173" width="219" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="163-zo-Shd">
-                                <rect key="frame" x="190" y="275" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="163-zo-Shd">
+                                <rect key="frame" x="189" y="433" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Log-Cb-P7I"/>
@@ -53,6 +48,20 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZdN-85-Qkt" firstAttribute="leading" secondItem="rF7-D5-Daw" secondAttribute="trailing" constant="8" symbolic="YES" id="H83-4m-ke7"/>
+                            <constraint firstItem="163-zo-Shd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JK7-fY-nVu"/>
+                            <constraint firstItem="znP-3w-Le9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="83" id="Ktu-gI-lcf"/>
+                            <constraint firstItem="znP-3w-Le9" firstAttribute="leading" secondItem="1MD-Jq-wcy" secondAttribute="trailing" constant="39" id="VAA-bu-2kv"/>
+                            <constraint firstItem="ZdN-85-Qkt" firstAttribute="top" secondItem="znP-3w-Le9" secondAttribute="bottom" constant="12" id="g6i-Vw-lMT"/>
+                            <constraint firstItem="rF7-D5-Daw" firstAttribute="top" secondItem="1MD-Jq-wcy" secondAttribute="bottom" constant="25" id="gVt-R9-CQZ"/>
+                            <constraint firstItem="1MD-Jq-wcy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="kh7-9d-hct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="znP-3w-Le9" secondAttribute="trailing" constant="52" id="krV-Xq-tkr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZdN-85-Qkt" secondAttribute="trailing" constant="52" id="pH2-0c-eqL"/>
+                            <constraint firstItem="rF7-D5-Daw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="w2u-wq-Ce4"/>
+                            <constraint firstItem="1MD-Jq-wcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="wRc-ws-PmC"/>
+                            <constraint firstItem="163-zo-Shd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zhn-4d-kTR"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="happinessTextFiled" destination="ZdN-85-Qkt" id="lRR-b3-7Ij"/>
