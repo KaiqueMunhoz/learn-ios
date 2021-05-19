@@ -14,6 +14,7 @@
 		F3F62283264B1CF9009CB34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F62282264B1CF9009CB34C /* Assets.xcassets */; };
 		F3F62286264B1CF9009CB34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F62284264B1CF9009CB34C /* LaunchScreen.storyboard */; };
 		F3FC22F82654F6DF00CEA9F2 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC22F72654F6DF00CEA9F2 /* Meal.swift */; };
+		F3FC22FB2654F7CB00CEA9F2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC22FA2654F7CB00CEA9F2 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F3F62285264B1CF9009CB34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3F62287264B1CF9009CB34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3FC22F72654F6DF00CEA9F2 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F3FC22FA2654F7CB00CEA9F2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F3FC22F72654F6DF00CEA9F2 /* Meal.swift */,
+				F3FC22FA2654F7CB00CEA9F2 /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FC22FB2654F7CB00CEA9F2 /* Item.swift in Sources */,
 				F3FC22F82654F6DF00CEA9F2 /* Meal.swift in Sources */,
 				F3F6227E264B1CF5009CB34C /* ViewController.swift in Sources */,
 				F3F6227A264B1CF5009CB34C /* AppDelegate.swift in Sources */,
