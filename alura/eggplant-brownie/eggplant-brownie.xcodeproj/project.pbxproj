@@ -56,15 +56,39 @@
 		F3F62278264B1CF5009CB34C /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				F3FC22F12654F60600CEA9F2 /* Models */,
+				F3FC22F32654F64E00CEA9F2 /* Views */,
+				F3FC22F42654F66F00CEA9F2 /* Controllers */,
 				F3F62279264B1CF5009CB34C /* AppDelegate.swift */,
 				F3F6227B264B1CF5009CB34C /* SceneDelegate.swift */,
-				F3F6227D264B1CF5009CB34C /* ViewController.swift */,
-				F3F6227F264B1CF5009CB34C /* Main.storyboard */,
 				F3F62282264B1CF9009CB34C /* Assets.xcassets */,
 				F3F62284264B1CF9009CB34C /* LaunchScreen.storyboard */,
 				F3F62287264B1CF9009CB34C /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		F3FC22F12654F60600CEA9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3FC22F32654F64E00CEA9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3F6227F264B1CF5009CB34C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3FC22F42654F66F00CEA9F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3F6227D264B1CF5009CB34C /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
