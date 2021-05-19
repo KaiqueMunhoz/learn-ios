@@ -9,4 +9,10 @@ class Meal {
         self.name = name
         self.happiness = happiness
     }
+    
+    func totalCalories() -> Double {
+        return items.reduce(0, { result, item in
+            result + item.calories
+        })
     }
+}
